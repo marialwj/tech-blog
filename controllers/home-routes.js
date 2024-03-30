@@ -108,9 +108,9 @@ router.get('/signup', (req, res) => {
 });
 
 
-router.get('*', (req, res) => {
-    res.status(404).send("Can't go there!");
-})
+// router.get('*', (req, res) => {
+//     res.status(404).send("Can't go there!");
+// })
 
 
 module.exports = router;
