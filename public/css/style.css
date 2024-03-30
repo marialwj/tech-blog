@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body,
@@ -7,13 +8,13 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     color: #333;
 }
 
 main,
 .site-name {
     background-color: #b8cba2;
+    text-align: center;
 }
 
 a,
@@ -142,6 +143,14 @@ header h1 {
     font-size: 1em;
 }
 
+/* Center align the title text */
+header h2 {
+    font-size: 1.5em; /* Adjust size as needed */
+    color: #fff; /* Title text color */
+    text-align: center; /* Center align the text */
+    margin-top: 5px; /* Add some space between site name and title */
+}
+
 .site-row {
     display: flex;
     border-bottom: 1px solid #ccc;
@@ -257,6 +266,10 @@ main {
 .post-content,
 .post-title-section {
     padding: 10px 10px 0px 0px;
+}
+
+.signup-link {
+    color: rgb(58, 35, 35);
 }
 
 .entry-field,
