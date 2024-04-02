@@ -41,7 +41,7 @@ To get started with the Tech Blog application:
 
 OR 
 
-5. Deploy the Heroku app ... https://maria-tech-blog-e65eef8dcb10.herokuapp.com/login 
+5. Deploy the Heroku app ... https://maria-tech-blog-e65eef8dcb10.herokuapp.com
 
 ## License
 N/A
